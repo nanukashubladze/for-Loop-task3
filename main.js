@@ -1,6 +1,12 @@
-let x = 0;
+//print average from 1 to 10
 
-for(let i=0; i <=10; i ++){
-    x = (x +i) % 10;
+let x = 0;
+let y = 0;
+let k =10;
+let z = ""
+
+for(let i=0; i <=k; i ++){
+    y += x + i
+    z = y / k
 }
-console.log(x)
+console.log(z)
